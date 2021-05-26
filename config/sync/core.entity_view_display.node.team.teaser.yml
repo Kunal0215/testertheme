@@ -1,0 +1,44 @@
+uuid: 13f3a210-6bfc-49be-bcc0-97ff3eaea2e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.team.body
+    - field.field.node.team.field_team_facebook
+    - field.field.node.team.field_team_google
+    - field.field.node.team.field_team_image
+    - field.field.node.team.field_team_linkedin
+    - field.field.node.team.field_team_name
+    - field.field.node.team.field_team_position
+    - field.field.node.team.field_team_twitter
+    - node.type.team
+  module:
+    - text
+    - user
+id: node.team.teaser
+targetEntityType: node
+bundle: team
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_team_facebook: true
+  field_team_google: true
+  field_team_image: true
+  field_team_linkedin: true
+  field_team_name: true
+  field_team_position: true
+  field_team_twitter: true

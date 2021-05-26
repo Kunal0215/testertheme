@@ -1,0 +1,25 @@
+uuid: 0def96f0-390c-4d44-b01d-561e78381c3e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:6a74724d-d485-4216-a560-962e52758fde'
+  module:
+    - block_content
+  theme:
+    - gavias_tico
+id: gavias_tico_copyright
+theme: gavias_tico
+region: copyright
+weight: -11
+provider: null
+plugin: 'block_content:6a74724d-d485-4216-a560-962e52758fde'
+settings:
+  id: 'block_content:6a74724d-d485-4216-a560-962e52758fde'
+  label: Copyright
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

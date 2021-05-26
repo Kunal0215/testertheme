@@ -1,0 +1,25 @@
+uuid: c2bd07f5-592b-4b52-a42a-76f3b5120b4d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0c1ecc6e-1d39-4ec0-a502-2c557762945e'
+  module:
+    - block_content
+  theme:
+    - gavias_tico
+id: gavias_tico_contactinfo
+theme: gavias_tico
+region: footer_first
+weight: -11
+provider: null
+plugin: 'block_content:0c1ecc6e-1d39-4ec0-a502-2c557762945e'
+settings:
+  id: 'block_content:0c1ecc6e-1d39-4ec0-a502-2c557762945e'
+  label: 'Contact info'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

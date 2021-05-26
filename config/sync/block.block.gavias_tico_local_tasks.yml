@@ -1,0 +1,20 @@
+uuid: 9bd38bf8-4d07-42ee-8c13-1ba842ecf585
+langcode: en
+status: true
+dependencies:
+  theme:
+    - gavias_tico
+id: gavias_tico_local_tasks
+theme: gavias_tico
+region: help
+weight: -11
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

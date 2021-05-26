@@ -1,0 +1,21 @@
+uuid: b921322e-1358-4b0f-bb23-a2aca07d5fc9
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - gavias_tico
+id: gavias_tico_searchform
+theme: gavias_tico
+region: search
+weight: -11
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  provider: search
+  label_display: '0'
+  page_id: ''
+visibility: {  }

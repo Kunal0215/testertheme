@@ -1,0 +1,25 @@
+uuid: c92b8155-201e-4a16-9cf2-888dde794a84
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:2f07e2c8-0b1d-4520-8201-4ba62df533c2'
+  module:
+    - block_content
+  theme:
+    - gavias_tico
+id: gavias_tico_topbar
+theme: gavias_tico
+region: topbar
+weight: -11
+provider: null
+plugin: 'block_content:2f07e2c8-0b1d-4520-8201-4ba62df533c2'
+settings:
+  id: 'block_content:2f07e2c8-0b1d-4520-8201-4ba62df533c2'
+  label: Topbar
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

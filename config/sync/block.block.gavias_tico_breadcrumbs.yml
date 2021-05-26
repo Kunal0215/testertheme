@@ -1,0 +1,40 @@
+uuid: c5ed230a-097e-453b-bf88-ee1b9d8d00a8
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_visibility_groups
+    - gaviasthemer
+    - system
+  theme:
+    - gavias_tico
+third_party_settings:
+  gaviasthemer:
+    breadcrumb_background_image_path: ''
+    breadcrumb_background_color: ''
+    breadcrumb_background_position: 'center top'
+    breadcrumb_background_repeat: no-repeat
+    breadcrumb_color_style: text-light
+    classes: ''
+id: gavias_tico_breadcrumbs
+theme: gavias_tico
+region: breadcrumbs
+weight: -11
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/node/121\r\n/node/122\r\n/node/123\r\n/node/124\r\n/node/138"
+    negate: true
+    context_mapping: {  }
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }

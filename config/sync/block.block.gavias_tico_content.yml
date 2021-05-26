@@ -1,0 +1,25 @@
+uuid: 14176cfc-8c08-4371-84f0-75d34f34c1d0
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gavias_tico
+id: gavias_tico_content
+theme: gavias_tico
+region: content
+weight: -11
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

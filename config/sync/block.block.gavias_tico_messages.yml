@@ -1,0 +1,20 @@
+uuid: 0b943925-fbff-431c-ad21-2fc71818d5e3
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gavias_tico
+id: gavias_tico_messages
+theme: gavias_tico
+region: help
+weight: -11
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

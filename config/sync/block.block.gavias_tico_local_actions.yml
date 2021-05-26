@@ -1,0 +1,18 @@
+uuid: d98fd34d-7fdf-4a8b-ae53-86ad4fbfe931
+langcode: en
+status: true
+dependencies:
+  theme:
+    - gavias_tico
+id: gavias_tico_local_actions
+theme: gavias_tico
+region: help
+weight: -11
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

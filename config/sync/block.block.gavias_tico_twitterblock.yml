@@ -1,0 +1,40 @@
+uuid: e16a3912-88a2-4ac8-9572-95312bdd0351
+langcode: en
+status: true
+dependencies:
+  module:
+    - gaviasthemer
+    - twitter_block
+  theme:
+    - gavias_tico
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: gavias_tico_twitterblock
+theme: gavias_tico
+region: footer_four
+weight: -11
+provider: null
+plugin: twitter_block
+settings:
+  id: twitter_block
+  label: 'Recent Twitter'
+  provider: twitter_block
+  label_display: visible
+  widget_id: '536526480289714177'
+  theme: dark
+  link_color: ''
+  width: ''
+  height: ''
+  chrome:
+    noheader: noheader
+    nofooter: nofooter
+    noborders: noborders
+    noscrollbar: noscrollbar
+    transparent: transparent
+  border_color: ''
+  language: ''
+  tweet_limit: '2'
+  related: ''
+  polite: polite
+visibility: {  }

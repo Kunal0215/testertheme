@@ -1,0 +1,34 @@
+uuid: 6652e69c-064a-4fe7-817e-c5f98566aaa2
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_visibility_groups
+    - gaviasthemer
+    - simplenews
+  theme:
+    - gavias_tico
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: gavias_tico_simplenewssubscription
+theme: gavias_tico
+region: footer_third
+weight: -11
+provider: null
+plugin: simplenews_subscription_block
+settings:
+  id: simplenews_subscription_block
+  label: 'Newsletter signup'
+  provider: simplenews
+  label_display: visible
+  newsletters:
+    default: default
+  message: 'Sign up to hear and get our daily new update via email. '
+  unique_id: e77ab44e-581a-4adc-9fcc-c9efdc245181
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }
